@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "a89f93da-dcdb-45b6-80f5-199bf0541c93",
+		"name": "userapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "users",
+			"id": "7dd97e5d-5b2a-4a7a-86b7-1bab04fefefb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/users/"
+			},
+			"response": []
+		},
+		{
+			"name": "users/<id>",
+			"id": "00f1466c-2b74-4b76-9c1b-7bb995cf167f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/users/1/"
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"id": "1232f577-4b4c-4400-8c08-7e14feccd5d6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"username\": \"posttestuser1\",\r\n\"password\":\"testuser\",\r\n\"email\":\"testuser@gmail.com\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/users/create/"
+			},
+			"response": []
+		},
+		{
+			"name": "users/<id>",
+			"id": "7d948db5-f0d9-42cf-be83-9f49301bd1c2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://127.0.0.1:8000/users/delete/9/"
+			},
+			"response": []
+		}
+	]
+}
