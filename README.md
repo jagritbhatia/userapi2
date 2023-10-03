@@ -18,3 +18,9 @@ $ python manage.py migrate
 You can now run the development server:
 
 $ python manage.py runserver
+
+#Run apis
+http://127.0.0.1:8000/users - Returns a list of all users.
+http://127.0.0.1:8000/users/<id> - Returns the user with the specified ID.
+http://127.0.0.1:8000/users/create/- Creates a new user with the specified data.
+http://127.0.0.1:8000/users/delete/<id> - Deletes the user with the specified ID.
