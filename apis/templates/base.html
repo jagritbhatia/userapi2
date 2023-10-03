@@ -1,0 +1,8 @@
+<!-- templates/base.html -->
+<header>
+    <a href="{% url 'user_list' %}">GET all users</a> <br>
+    <a href="{% url 'user_create' %}">CREATE a user</a>
+    <a href="{% url 'user_detail' pk=4 %}">GET a user</a>
+</header>
+{% block content %}
+{% endblock content %}
