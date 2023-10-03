@@ -19,7 +19,7 @@ You can now run the development server:
 
 $ python manage.py runserver
 
-#Run apis
+# Run apis
 
 http://127.0.0.1:8000/users - Returns a list of all users.
 
@@ -28,3 +28,6 @@ http://127.0.0.1:8000/users/1 - Returns the user with the  ID 1.
 http://127.0.0.1:8000/users/create/- Creates a new user with the specified data.
 
 http://127.0.0.1:8000/users/delete/9- Deletes the user with the  ID 9 .
+
+# Screenshots
+![userapi4ss](https://github.com/jagritbhatia/userapi2/assets/90523447/07f1876d-66a9-411e-a2f9-ddb83c042947)
