@@ -25,13 +25,13 @@ python manage.py createsuperuser
 
 # Run apis
 
-http://127.0.0.1:8000/users - Returns a list of all users.
+http://127.0.0.1:8000/users   -Returns a list of all users.
 
-http://127.0.0.1:8000/users/1 - Returns the user with the  ID 1.
+http://127.0.0.1:8000/users/1  -Returns the user with the  ID 1.
 
 http://127.0.0.1:8000/users/create -Creates a new user with the specified data.
 
-http://127.0.0.1:8000/users/delete/9- Deletes the user with the  ID 9 .
+http://127.0.0.1:8000/users/delete/9  -Deletes the user with the  ID 9 .
 
 # Screenshots
 
