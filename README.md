@@ -4,6 +4,7 @@
 First clone the repository from Github and switch to the new directory:
 
 $ git clone git@github.com/USERNAME/{{ project_name }}.git
+
 $ cd {{ project_name }}
 
 Activate the virtualenv for your project.
